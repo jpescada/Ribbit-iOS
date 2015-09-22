@@ -15,8 +15,9 @@
 {
     [NSThread sleepForTimeInterval:1.5];
     
-    [Parse setApplicationId:@"oDAprnOcULQVqwUPDifX3FLYYuz6rh5iOJjKkBqy"
-                  clientKey:@"JYAjgC7wzIbt1OlSL2nO3Potz3gYbY09UN3aPkJ3"];
+    // Update these with your own Parse client app details
+    [Parse setApplicationId:@"XXXXXXXXXX"
+                  clientKey:@"XXXXXXXXXX"];
     
     [PFAnalytics trackAppOpenedWithLaunchOptions:launchOptions];
     
